@@ -6,15 +6,15 @@ public class Calisan {
     private String mail;
 
     public void giris() {
-        System.out.println(this.name + " üniversiteye giriş yaptı");
+        System.out.println(this.getName() + " üniversiteye giriş yaptı");
     }
 
     public void cikis() {
-        System.out.println(this.name + " üniversiteden çıkış yaptı");
+        System.out.println(this.getName() + " üniversiteden çıkış yaptı");
     }
 
     public void yemekhane() {
-        System.out.println(this.name + " yemekhane giriş yaptı");
+        System.out.println(this.getName() + " yemekhane giriş yaptı");
     }
 
     public Calisan(String name, String phone, String mail) {
