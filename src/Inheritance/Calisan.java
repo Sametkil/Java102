@@ -2,22 +2,24 @@ package src.Inheritance;
 
 public class Calisan {
     private String name;
-    private String surname;
+    private String phone;
     private String mail;
 
-    public void giris(){
-        System.out.println(this.name+" üniversiteye giriş yaptı");
-    }
-    public void cikis(){
-        System.out.println(this.name+" üniversiteden çıkış yaptı");
-    }
-    public void yemekhane(){
-        System.out.println(this.name+" yemekhane giriş yaptı");
+    public void giris() {
+        System.out.println(this.name + " üniversiteye giriş yaptı");
     }
 
-    public Calisan(String name, String surname, String mail) {
+    public void cikis() {
+        System.out.println(this.name + " üniversiteden çıkış yaptı");
+    }
+
+    public void yemekhane() {
+        System.out.println(this.name + " yemekhane giriş yaptı");
+    }
+
+    public Calisan(String name, String phone, String mail) {
         this.name = name;
-        this.surname = surname;
+        this.phone = phone;
         this.mail = mail;
     }
 
@@ -29,12 +31,12 @@ public class Calisan {
         this.name = name;
     }
 
-    public String getSurname() {
-        return surname;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getMail() {
