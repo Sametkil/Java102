@@ -1,4 +1,4 @@
-package src.Inheritance;
+package src.inheritance;
 
 public class Akademisyen extends Calisan {
     private String bolum;

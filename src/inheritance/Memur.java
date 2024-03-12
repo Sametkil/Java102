@@ -1,4 +1,4 @@
-package src.Inheritance;
+package src.inheritance;
 
 public class Memur extends Calisan{
     private String department;
